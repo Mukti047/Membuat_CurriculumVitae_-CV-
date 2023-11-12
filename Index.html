@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Evaluasi HTML 2 (Curriculum Vitae)</title>
+    <style type="text/css">
+        
+        .container {
+        width: 1050px;
+        margin: 0 auto;
+        background-color: white;
+        }
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        b {
+            font-size: 20pt;
+        }
+
+        p {
+            font-size: 13pt;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        body {
+            background-color: rgb(197, 98, 98);
+        }
+
+        button {
+            background-color: orange;
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            margin-bottom: 100px;
+        }
+
+        .data_riwayat_diri {
+            background-color: rgb(240, 227, 227);
+        }
+
+        .tablewarna_1 {
+            background-color: wheat;
+            color: black;
+            padding-top: 50px;
+            padding-left: 40px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+        }
+
+        .tablewarna_2 {
+            background-color: wheat;
+            color: black;
+            padding-top: 50px;
+            padding-left: 40px;
+            padding-right: 30px;
+            padding-bottom: 40px;
+        }
+        .data_diri {
+            padding-top: 10px;
+        }
+        
+        .cl1 {
+            font-size: 30pt;
+        }
+
+        .cl2 {
+            font-size: 15pt;
+        }
+
+        .keahlian_setifikasi {
+            background-color: wheat;
+            color: black;
+            padding-bottom: 50px;
+            padding-right: 40px;
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .footer {
+            background-color: darkgrey;
+            color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <!-- DATA RIWAYAT DIRI -->
+    <table class="data_riwayat_diri">
+        <tr>
+            <td rowspan="4"><img src="My Foto.jpg" width="550" height="600"></td>
+            <td align="right" height="50px"></td>
+        </tr>
+        <tr>
+            <th align="center" width="700" height="100px">PORTOFOLIO 2028</th>
+        </tr>
+        <tr>
+            <td align="center"><b>Mukti Anugrah Pratama</b>
+                <p><i>Full Stack Web Developer</i></p>
+                <p class="data_diri" align="justify">
+                    Saya berusia 25 tahun. Saya memiliki modal keahlian dalam pembuatan website seperti HTML, CSS, 
+                    JavaScript, dan Laravel bagi perusahaan karena Saya pernah berpengalaman dalam merancang website. 
+                    Saya memiliki sifat berpikir analitis dan imajinasi yang di mana memiliki ide/pemikiran dalam 
+                    membuat rancangan pada sebuah website yang akan dibuat bisa dibuka melalui komputer/laptop, 
+                    handphone, ataupun tablet.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button type="button">Hire Me</button>
+            </td>
+        </tr>
+    </table> 
+
+    <!-- PENDIDIKAN -->
+    <table class="tablewarna_1">
+        <tr>
+            <td><img src="UGM_2.jpg" width="450" height="300"></td>
+            <td width="200"></td>
+            <td width="1000" >
+                <p><b class="cl1">Pendidikan</b></p>
+                <p>SMA Negeri 10 Kota Jambi (2018 - 2021)<br>
+                Jurusan IPS</p>
+                <p>S1 - Universitas Nurdin Hamzah Jambi (2021 - 2025)<br>
+                Program Studi Sistem Informasi</p>
+                <p>S2 - Universitas Gadjah Mada (2025 - 2027)<br>
+                Program Studi Teknologi Informasi </p>
+            </td>
+        </tr>  
+    </table>
+
+    <!-- PEKERJAAN -->
+    <table class="tablewarna_2">
+        <tr>
+            <td width="7000">
+                <p><b class="cl1">Pekerjaan</b></p>
+                <p align="justify"><b class="cl2">Full Stack Web Developer (2025 - Sekarang)</b><br>
+                   Full Stack Web Developer adalah seseorang yang nyaman bekerja atau merangkap tugas sebagai back 
+                   end dan front end developer. Lebih spesifiknya, bisa bekerja dengan javascript, PHP, java, 
+                   database (backend) dan juga bisa mengkonversi desain ke dalam kode pemrograman seperti HTML, CSS,
+                   XML (front end).
+                </p>
+            </td>
+            <td width="800"></td>
+            <td width="1000"><img src="Pekerjaan.jpg" width="450" height="300"></td>    
+        </tr>  
+    </table>
+
+    <!-- ORGANISASI -->
+    <table class="tablewarna_1">
+        <tr>
+            <td><img src="Organisasi Ikatan Ahli Informatika Indonesia (IAII).jpg" width="450" height="300"></td>
+            <td width="100"></td>
+            <td width="1000" >
+                <p><b class="cl1">Organisasi</b></p>
+                <p align="justify"><b class="cl2">Ikatan Ahli Informatika Indonesia (2025 - 2026)</b><br>
+                    Ikatan Ahli Informatika Indonesia (IAII) adalah organisasi profesi, yaitu organisasi nir-laba 
+                    (not-for-profit organization) yang menghimpun ahli-ahli Informatika Indonesia dalam satu wadah 
+                    untuk bersatu padu untuk meningkatkan daya saing Indonesia melalui keahlian dan profesi 
+                    Informatika (komputing, yaitu bidang yang meliputi informatika/ilmu komputer, rekayasa perangkat 
+                    lunak, sistem informasi, teknologi informasi, sistem/teknik komputer, manajemen dan tata kelola 
+                    teknologi informasi).
+                </p>
+            </td>
+        </tr> 
+    </table>
+    
+    <!-- KELEBIHAN & KEKURANGAN -->
+    <table class="tablewarna_1">
+        <tr>
+            <td width="975" align="center"><b class="cl1">Kelebihan & Kekurangan</b></td>
+        </tr>
+
+        <tr align="center">
+            <td>
+            <p>
+                Berpikir analitis dengan menggunakan logika dan penalaran untuk mengindentifikasi kekuatan dan 
+                kelemahan dari solusi alternatif, ataupun pendekatan permasalahan yang ditangani. Passion terhadap 
+                pemrograman merupakan suatu hal wajib untuk menjadi seorang Web Developer. Selalu mencoba terus 
+                belajar, dan mau berusaha sebagai ciri dari seorang Web Developer yang mencintai programming
+                Problem solving memahami masalah yang rumit dan mengetahui cara menggunakan teknologi untuk 
+                menyelesaikannya. Manajemen waktu dalam menangani deadline yang biasanya diberikan dalam perancangan 
+                sebuah aplikasi, dan lainnya. Kemampuan komunikasi dapat berbicara dalam istilah teknis dan 
+                non-teknis kepada tim developer atau bagian lainnya. Logika dan Imajinasi, seorang programmer harus 
+                memiliki kemampuan untuk memecahkan suatu masalah tidak saja dengan satu jawaban namun banyak 
+                alternatif.
+            </p>
+            <p>
+                Kekurangan yang Saya miliki adalah ketidaksempurnaan. Sama seperti orang-orang lain, Saya merupakan 
+                manusia yang tidak sempurna yang di mana pasti akan melakukan sebuah kesalahan seperti lupa dalam 
+                mengerjakan pekerjaan membuat sebuah halaman website, salah dalam membuat rancangan halaman website,
+                salah dalam pencodingan, dll. Selain itu, Saya juga merasa capek dan pusing ketika dalam membuat rancangan
+                halaman website.
+            </p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- KEAHLIAN & SERTIFIKASI -->
+    <table class="tablewarna_1">
+        <tr>
+            <td width="975" align="center"><b class="cl1">Keahlian & Sertifikasi</b></td>
+        </tr>
+    </table>
+
+    <table class="keahlian_setifikasi">
+        <tr align="center">
+            <td width="80px"></td>
+            <td class="white" width="900"><img src="Sertifikat Fundamental Front End.png" alt="Sertifikat Fundamental Front End" width="80"><br>
+                Front End Web (2023)
+            </td>
+            <td width="50px"></td>
+            <td class="white" width="900"><img src="Laravel.png" alt="Laravel" width="80"><br>
+                Laravel (2023)</td>
+        </tr>
+    </table>
+
+    <!-- FOOTER -->
+    <table class="footer">
+        <tr>
+            <td width="1050" align="center">Copyright Mukti Anugrah Pratama</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
